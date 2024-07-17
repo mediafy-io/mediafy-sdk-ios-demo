@@ -1,12 +1,16 @@
-# Mediafy SDK
+# Mediafy Demo Applications
 
-Mediafy SDK is an in-app monetization library. 
+This repository contains Swift and Objective-C applications demonstrating integration and live monetization use cases of Mediafy SDK. 
 
-The latest SDK version is **2.4.4**.
+The apps provide integration cases for the following formats: 
 
-The minimum deployment target is iOS **12.0**.
+- HTML Banner
+- Outstream Video
+- HTML Interstitial
+- Video Interstitial
+- Multiformat Interstitial
+- Native
 
-## Integration and configuration
+The apps also provide examples of integration into AdMob and AppLovin MAX through mediation adapters.
 
-The documentation will be available soon. 
-
+The detailed documentation for Mediafy Mobile SDK: // Comming soon. 

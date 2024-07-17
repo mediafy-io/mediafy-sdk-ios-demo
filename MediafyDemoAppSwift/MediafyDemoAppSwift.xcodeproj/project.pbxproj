@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531DB0C72C36FA4400653958 /* MediafyBannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DB0C62C36FA4400653958 /* MediafyBannerAdViewController.swift */; };
+		531DB0C92C36FAAD00653958 /* MediafyBannerAdMultisizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531DB0C82C36FAAD00653958 /* MediafyBannerAdMultisizeViewController.swift */; };
+		5330A67A2C36FCCE00E8E3FE /* MediafyMultiformatInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6792C36FCCE00E8E3FE /* MediafyMultiformatInterstitialViewController.swift */; };
+		5330A67C2C37010100E8E3FE /* AdMobBannerAdMediumRectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330A67B2C37010100E8E3FE /* AdMobBannerAdMediumRectangleViewController.swift */; };
+		5330A67E2C37025B00E8E3FE /* AdMobMultiformatInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330A67D2C37025B00E8E3FE /* AdMobMultiformatInterstitialViewController.swift */; };
+		5330A6802C3703C300E8E3FE /* AppLovinBannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330A67F2C3703C300E8E3FE /* AppLovinBannerAdViewController.swift */; };
+		5330A6822C3704A500E8E3FE /* AppLovinVideoInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6812C3704A500E8E3FE /* AppLovinVideoInterstitialViewController.swift */; };
+		5330A6842C37051C00E8E3FE /* AppLovinMultifomatInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6832C37051C00E8E3FE /* AppLovinMultifomatInterstitialViewController.swift */; };
+		53D3C3642C2B43300074D99B /* AdMobBannerAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C35E2C2B432F0074D99B /* AdMobBannerAdViewController.swift */; };
+		53D3C3652C2B43300074D99B /* AdMobNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C35F2C2B432F0074D99B /* AdMobNativeViewController.xib */; };
+		53D3C3662C2B43300074D99B /* AdMobBannerInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3602C2B432F0074D99B /* AdMobBannerInterstitialViewController.swift */; };
+		53D3C3672C2B43300074D99B /* AdMobNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3612C2B432F0074D99B /* AdMobNativeViewController.swift */; };
+		53D3C3682C2B43300074D99B /* AdMobVideoAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3622C2B432F0074D99B /* AdMobVideoAdViewController.swift */; };
+		53D3C3692C2B43300074D99B /* AdMobVideoInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3632C2B432F0074D99B /* AdMobVideoInterstitialViewController.swift */; };
+		53EC0D432C204D0800CA4010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D422C204D0800CA4010 /* AppDelegate.swift */; };
+		53EC0D452C204D0800CA4010 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D442C204D0800CA4010 /* SceneDelegate.swift */; };
+		53EC0D4A2C204D0800CA4010 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0D492C204D0800CA4010 /* Base */; };
+		53EC0D4C2C204D0900CA4010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0D4B2C204D0900CA4010 /* Assets.xcassets */; };
+		53EC0D4F2C204D0900CA4010 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0D4E2C204D0900CA4010 /* Base */; };
+		53EC0D592C204D8900CA4010 /* UIButton++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D562C204D8900CA4010 /* UIButton++.swift */; };
+		53EC0D5A2C204D8900CA4010 /* UIImageView++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D572C204D8900CA4010 /* UIImageView++.swift */; };
+		53EC0D652C204D9100CA4010 /* AdBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D5B2C204D9100CA4010 /* AdBaseViewController.swift */; };
+		53EC0D662C204D9100CA4010 /* AdBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0D5C2C204D9100CA4010 /* AdBaseViewController.xib */; };
+		53EC0D672C204D9100CA4010 /* InterstitialBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D5E2C204D9100CA4010 /* InterstitialBaseViewController.swift */; };
+		53EC0D682C204D9100CA4010 /* InterstitialBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0D5F2C204D9100CA4010 /* InterstitialBaseViewController.xib */; };
+		53EC0D692C204D9100CA4010 /* NativeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D612C204D9100CA4010 /* NativeBaseViewController.swift */; };
+		53EC0D6A2C204D9100CA4010 /* NativeBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0D622C204D9100CA4010 /* NativeBaseViewController.xib */; };
+		53EC0D912C204D9B00CA4010 /* MediafyBannerAdMediumRectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D792C204D9B00CA4010 /* MediafyBannerAdMediumRectangleViewController.swift */; };
+		53EC0D922C204D9B00CA4010 /* MediafyBannerInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D7A2C204D9B00CA4010 /* MediafyBannerInterstitialViewController.swift */; };
+		53EC0D932C204D9B00CA4010 /* MediafyNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D7B2C204D9B00CA4010 /* MediafyNativeViewController.swift */; };
+		53EC0D942C204D9B00CA4010 /* MediafyVideoAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D7C2C204D9B00CA4010 /* MediafyVideoAdViewController.swift */; };
+		53EC0D952C204D9B00CA4010 /* MediafyVideoInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D7D2C204D9B00CA4010 /* MediafyVideoInterstitialViewController.swift */; };
+		53EC0D962C204D9B00CA4010 /* IntegrationCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D802C204D9B00CA4010 /* IntegrationCase.swift */; };
+		53EC0D972C204D9B00CA4010 /* IntegrationAdFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D812C204D9B00CA4010 /* IntegrationAdFormat.swift */; };
+		53EC0D982C204D9B00CA4010 /* IntegrationCaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D822C204D9B00CA4010 /* IntegrationCaseManager.swift */; };
+		53EC0D992C204D9B00CA4010 /* IntegrationKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D832C204D9B00CA4010 /* IntegrationKind.swift */; };
+		53EC0D9A2C204D9B00CA4010 /* IntegrationCasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0D842C204D9B00CA4010 /* IntegrationCasesViewController.swift */; };
+		53FF10502C2D846200820EC6 /* AppLovinBannerAdMediumRectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FF104A2C2D846200820EC6 /* AppLovinBannerAdMediumRectangleViewController.swift */; };
+		53FF10512C2D846200820EC6 /* AppLovinVideoAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FF104B2C2D846200820EC6 /* AppLovinVideoAdViewController.swift */; };
+		53FF10522C2D846200820EC6 /* AppLovinBannerInterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FF104C2C2D846200820EC6 /* AppLovinBannerInterstitialViewController.swift */; };
+		53FF10542C2D846200820EC6 /* AppLovinNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FF104E2C2D846200820EC6 /* AppLovinNativeViewController.xib */; };
+		53FF10552C2D846200820EC6 /* AppLovinNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FF104F2C2D846200820EC6 /* AppLovinNativeViewController.swift */; };
+		CC6E4BA7E138AAF10CC3D49B /* Pods_MediafyDemoAppSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3404CEB599B0B34E73EF3211 /* Pods_MediafyDemoAppSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5330A6872C370A3A00E8E3FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DAABBC0891CF2EFD9E5ED54 /* Pods-MediafyDemoAppSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediafyDemoAppSwift.release.xcconfig"; path = "Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift.release.xcconfig"; sourceTree = "<group>"; };
+		3404CEB599B0B34E73EF3211 /* Pods_MediafyDemoAppSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediafyDemoAppSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531DB0C62C36FA4400653958 /* MediafyBannerAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediafyBannerAdViewController.swift; sourceTree = "<group>"; };
+		531DB0C82C36FAAD00653958 /* MediafyBannerAdMultisizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediafyBannerAdMultisizeViewController.swift; sourceTree = "<group>"; };
+		5330A6792C36FCCE00E8E3FE /* MediafyMultiformatInterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediafyMultiformatInterstitialViewController.swift; sourceTree = "<group>"; };
+		5330A67B2C37010100E8E3FE /* AdMobBannerAdMediumRectangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobBannerAdMediumRectangleViewController.swift; sourceTree = "<group>"; };
+		5330A67D2C37025B00E8E3FE /* AdMobMultiformatInterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobMultiformatInterstitialViewController.swift; sourceTree = "<group>"; };
+		5330A67F2C3703C300E8E3FE /* AppLovinBannerAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLovinBannerAdViewController.swift; sourceTree = "<group>"; };
+		5330A6812C3704A500E8E3FE /* AppLovinVideoInterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLovinVideoInterstitialViewController.swift; sourceTree = "<group>"; };
+		5330A6832C37051C00E8E3FE /* AppLovinMultifomatInterstitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLovinMultifomatInterstitialViewController.swift; sourceTree = "<group>"; };
+		53D3C35E2C2B432F0074D99B /* AdMobBannerAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobBannerAdViewController.swift; sourceTree = "<group>"; };
+		53D3C35F2C2B432F0074D99B /* AdMobNativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdMobNativeViewController.xib; sourceTree = "<group>"; };
+		53D3C3602C2B432F0074D99B /* AdMobBannerInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobBannerInterstitialViewController.swift; sourceTree = "<group>"; };
+		53D3C3612C2B432F0074D99B /* AdMobNativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobNativeViewController.swift; sourceTree = "<group>"; };
+		53D3C3622C2B432F0074D99B /* AdMobVideoAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobVideoAdViewController.swift; sourceTree = "<group>"; };
+		53D3C3632C2B432F0074D99B /* AdMobVideoInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobVideoInterstitialViewController.swift; sourceTree = "<group>"; };
+		53EC0D3F2C204D0800CA4010 /* MediafyDemoAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediafyDemoAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EC0D422C204D0800CA4010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53EC0D442C204D0800CA4010 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53EC0D492C204D0800CA4010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53EC0D4B2C204D0900CA4010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53EC0D4E2C204D0900CA4010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53EC0D502C204D0900CA4010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EC0D562C204D8900CA4010 /* UIButton++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton++.swift"; sourceTree = "<group>"; };
+		53EC0D572C204D8900CA4010 /* UIImageView++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView++.swift"; sourceTree = "<group>"; };
+		53EC0D5B2C204D9100CA4010 /* AdBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdBaseViewController.swift; sourceTree = "<group>"; };
+		53EC0D5C2C204D9100CA4010 /* AdBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdBaseViewController.xib; sourceTree = "<group>"; };
+		53EC0D5E2C204D9100CA4010 /* InterstitialBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialBaseViewController.swift; sourceTree = "<group>"; };
+		53EC0D5F2C204D9100CA4010 /* InterstitialBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterstitialBaseViewController.xib; sourceTree = "<group>"; };
+		53EC0D612C204D9100CA4010 /* NativeBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeBaseViewController.swift; sourceTree = "<group>"; };
+		53EC0D622C204D9100CA4010 /* NativeBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeBaseViewController.xib; sourceTree = "<group>"; };
+		53EC0D792C204D9B00CA4010 /* MediafyBannerAdMediumRectangleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediafyBannerAdMediumRectangleViewController.swift; sourceTree = "<group>"; };
+		53EC0D7A2C204D9B00CA4010 /* MediafyBannerInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediafyBannerInterstitialViewController.swift; sourceTree = "<group>"; };
+		53EC0D7B2C204D9B00CA4010 /* MediafyNativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediafyNativeViewController.swift; sourceTree = "<group>"; };
+		53EC0D7C2C204D9B00CA4010 /* MediafyVideoAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediafyVideoAdViewController.swift; sourceTree = "<group>"; };
+		53EC0D7D2C204D9B00CA4010 /* MediafyVideoInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediafyVideoInterstitialViewController.swift; sourceTree = "<group>"; };
+		53EC0D802C204D9B00CA4010 /* IntegrationCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationCase.swift; sourceTree = "<group>"; };
+		53EC0D812C204D9B00CA4010 /* IntegrationAdFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationAdFormat.swift; sourceTree = "<group>"; };
+		53EC0D822C204D9B00CA4010 /* IntegrationCaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationCaseManager.swift; sourceTree = "<group>"; };
+		53EC0D832C204D9B00CA4010 /* IntegrationKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationKind.swift; sourceTree = "<group>"; };
+		53EC0D842C204D9B00CA4010 /* IntegrationCasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationCasesViewController.swift; sourceTree = "<group>"; };
+		53FF104A2C2D846200820EC6 /* AppLovinBannerAdMediumRectangleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLovinBannerAdMediumRectangleViewController.swift; sourceTree = "<group>"; };
+		53FF104B2C2D846200820EC6 /* AppLovinVideoAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLovinVideoAdViewController.swift; sourceTree = "<group>"; };
+		53FF104C2C2D846200820EC6 /* AppLovinBannerInterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLovinBannerInterstitialViewController.swift; sourceTree = "<group>"; };
+		53FF104E2C2D846200820EC6 /* AppLovinNativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppLovinNativeViewController.xib; sourceTree = "<group>"; };
+		53FF104F2C2D846200820EC6 /* AppLovinNativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLovinNativeViewController.swift; sourceTree = "<group>"; };
+		EFF1A83A129BD263BFCDD594 /* Pods-MediafyDemoAppSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediafyDemoAppSwift.debug.xcconfig"; path = "Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53EC0D3C2C204D0800CA4010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6E4BA7E138AAF10CC3D49B /* Pods_MediafyDemoAppSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DFF01DA31BEE43A9653107 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1A83A129BD263BFCDD594 /* Pods-MediafyDemoAppSwift.debug.xcconfig */,
+				1DAABBC0891CF2EFD9E5ED54 /* Pods-MediafyDemoAppSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		19EFFBB7382C5C90BB4CAE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3404CEB599B0B34E73EF3211 /* Pods_MediafyDemoAppSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53D3C3592C2B42B60074D99B /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				53D3C35E2C2B432F0074D99B /* AdMobBannerAdViewController.swift */,
+				5330A67B2C37010100E8E3FE /* AdMobBannerAdMediumRectangleViewController.swift */,
+				53D3C3622C2B432F0074D99B /* AdMobVideoAdViewController.swift */,
+				53D3C3602C2B432F0074D99B /* AdMobBannerInterstitialViewController.swift */,
+				53D3C3632C2B432F0074D99B /* AdMobVideoInterstitialViewController.swift */,
+				5330A67D2C37025B00E8E3FE /* AdMobMultiformatInterstitialViewController.swift */,
+				53D3C3612C2B432F0074D99B /* AdMobNativeViewController.swift */,
+				53D3C35F2C2B432F0074D99B /* AdMobNativeViewController.xib */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		53EC0D362C204D0800CA4010 = {
+			isa = PBXGroup;
+			children = (
+				53EC0D412C204D0800CA4010 /* MediafyDemoAppSwift */,
+				53EC0D402C204D0800CA4010 /* Products */,
+				07DFF01DA31BEE43A9653107 /* Pods */,
+				19EFFBB7382C5C90BB4CAE99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53EC0D402C204D0800CA4010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0D3F2C204D0800CA4010 /* MediafyDemoAppSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53EC0D412C204D0800CA4010 /* MediafyDemoAppSwift */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0D642C204D9100CA4010 /* GeneralUI */,
+				53EC0D582C204D8900CA4010 /* Extensions */,
+				53EC0D7F2C204D9B00CA4010 /* IntegrationCases */,
+				53EC0D422C204D0800CA4010 /* AppDelegate.swift */,
+				53EC0D442C204D0800CA4010 /* SceneDelegate.swift */,
+				53EC0D812C204D9B00CA4010 /* IntegrationAdFormat.swift */,
+				53EC0D802C204D9B00CA4010 /* IntegrationCase.swift */,
+				53EC0D822C204D9B00CA4010 /* IntegrationCaseManager.swift */,
+				53EC0D842C204D9B00CA4010 /* IntegrationCasesViewController.swift */,
+				53EC0D832C204D9B00CA4010 /* IntegrationKind.swift */,
+				53EC0D482C204D0800CA4010 /* Main.storyboard */,
+				53EC0D4B2C204D0900CA4010 /* Assets.xcassets */,
+				53EC0D4D2C204D0900CA4010 /* LaunchScreen.storyboard */,
+				53EC0D502C204D0900CA4010 /* Info.plist */,
+			);
+			path = MediafyDemoAppSwift;
+			sourceTree = "<group>";
+		};
+		53EC0D582C204D8900CA4010 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0D562C204D8900CA4010 /* UIButton++.swift */,
+				53EC0D572C204D8900CA4010 /* UIImageView++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53EC0D5D2C204D9100CA4010 /* AdBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0D5B2C204D9100CA4010 /* AdBaseViewController.swift */,
+				53EC0D5C2C204D9100CA4010 /* AdBaseViewController.xib */,
+			);
+			path = AdBaseViewController;
+			sourceTree = "<group>";
+		};
+		53EC0D602C204D9100CA4010 /* InterstitialBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0D5E2C204D9100CA4010 /* InterstitialBaseViewController.swift */,
+				53EC0D5F2C204D9100CA4010 /* InterstitialBaseViewController.xib */,
+			);
+			path = InterstitialBaseViewController;
+			sourceTree = "<group>";
+		};
+		53EC0D632C204D9100CA4010 /* NativeBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0D612C204D9100CA4010 /* NativeBaseViewController.swift */,
+				53EC0D622C204D9100CA4010 /* NativeBaseViewController.xib */,
+			);
+			path = NativeBaseViewController;
+			sourceTree = "<group>";
+		};
+		53EC0D642C204D9100CA4010 /* GeneralUI */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0D5D2C204D9100CA4010 /* AdBaseViewController */,
+				53EC0D602C204D9100CA4010 /* InterstitialBaseViewController */,
+				53EC0D632C204D9100CA4010 /* NativeBaseViewController */,
+			);
+			path = GeneralUI;
+			sourceTree = "<group>";
+		};
+		53EC0D7E2C204D9B00CA4010 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				531DB0C62C36FA4400653958 /* MediafyBannerAdViewController.swift */,
+				53EC0D792C204D9B00CA4010 /* MediafyBannerAdMediumRectangleViewController.swift */,
+				531DB0C82C36FAAD00653958 /* MediafyBannerAdMultisizeViewController.swift */,
+				53EC0D7C2C204D9B00CA4010 /* MediafyVideoAdViewController.swift */,
+				53EC0D7A2C204D9B00CA4010 /* MediafyBannerInterstitialViewController.swift */,
+				53EC0D7D2C204D9B00CA4010 /* MediafyVideoInterstitialViewController.swift */,
+				5330A6792C36FCCE00E8E3FE /* MediafyMultiformatInterstitialViewController.swift */,
+				53EC0D7B2C204D9B00CA4010 /* MediafyNativeViewController.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		53EC0D7F2C204D9B00CA4010 /* IntegrationCases */ = {
+			isa = PBXGroup;
+			children = (
+				53FF10492C2D844E00820EC6 /* AppLovin */,
+				53D3C3592C2B42B60074D99B /* AdMob */,
+				53EC0D7E2C204D9B00CA4010 /* SDK */,
+			);
+			path = IntegrationCases;
+			sourceTree = "<group>";
+		};
+		53FF10492C2D844E00820EC6 /* AppLovin */ = {
+			isa = PBXGroup;
+			children = (
+				5330A67F2C3703C300E8E3FE /* AppLovinBannerAdViewController.swift */,
+				53FF104A2C2D846200820EC6 /* AppLovinBannerAdMediumRectangleViewController.swift */,
+				53FF104B2C2D846200820EC6 /* AppLovinVideoAdViewController.swift */,
+				53FF104C2C2D846200820EC6 /* AppLovinBannerInterstitialViewController.swift */,
+				5330A6812C3704A500E8E3FE /* AppLovinVideoInterstitialViewController.swift */,
+				5330A6832C37051C00E8E3FE /* AppLovinMultifomatInterstitialViewController.swift */,
+				53FF104F2C2D846200820EC6 /* AppLovinNativeViewController.swift */,
+				53FF104E2C2D846200820EC6 /* AppLovinNativeViewController.xib */,
+			);
+			path = AppLovin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53EC0D3E2C204D0800CA4010 /* MediafyDemoAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EC0D532C204D0900CA4010 /* Build configuration list for PBXNativeTarget "MediafyDemoAppSwift" */;
+			buildPhases = (
+				B2B4E738D168BC0FFCBE9439 /* [CP] Check Pods Manifest.lock */,
+				53EC0D3B2C204D0800CA4010 /* Sources */,
+				53EC0D3C2C204D0800CA4010 /* Frameworks */,
+				53EC0D3D2C204D0800CA4010 /* Resources */,
+				57DB0DAB82D1E67E07712E85 /* [CP] Copy Pods Resources */,
+				6EA89D6D1D87858F9000DF11 /* [CP] Embed Pods Frameworks */,
+				5330A6872C370A3A00E8E3FE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediafyDemoAppSwift;
+			productName = MediafyDemoAppSwift;
+			productReference = 53EC0D3F2C204D0800CA4010 /* MediafyDemoAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53EC0D372C204D0800CA4010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					53EC0D3E2C204D0800CA4010 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 53EC0D3A2C204D0800CA4010 /* Build configuration list for PBXProject "MediafyDemoAppSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53EC0D362C204D0800CA4010;
+			productRefGroup = 53EC0D402C204D0800CA4010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53EC0D3E2C204D0800CA4010 /* MediafyDemoAppSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53EC0D3D2C204D0800CA4010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FF10542C2D846200820EC6 /* AppLovinNativeViewController.xib in Resources */,
+				53EC0D662C204D9100CA4010 /* AdBaseViewController.xib in Resources */,
+				53EC0D4C2C204D0900CA4010 /* Assets.xcassets in Resources */,
+				53D3C3652C2B43300074D99B /* AdMobNativeViewController.xib in Resources */,
+				53EC0D4F2C204D0900CA4010 /* Base in Resources */,
+				53EC0D4A2C204D0800CA4010 /* Base in Resources */,
+				53EC0D6A2C204D9100CA4010 /* NativeBaseViewController.xib in Resources */,
+				53EC0D682C204D9100CA4010 /* InterstitialBaseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57DB0DAB82D1E67E07712E85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA89D6D1D87858F9000DF11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppSwift/Pods-MediafyDemoAppSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B4E738D168BC0FFCBE9439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediafyDemoAppSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53EC0D3B2C204D0800CA4010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EC0D952C204D9B00CA4010 /* MediafyVideoInterstitialViewController.swift in Sources */,
+				53FF10522C2D846200820EC6 /* AppLovinBannerInterstitialViewController.swift in Sources */,
+				53EC0D432C204D0800CA4010 /* AppDelegate.swift in Sources */,
+				53EC0D692C204D9100CA4010 /* NativeBaseViewController.swift in Sources */,
+				53EC0D652C204D9100CA4010 /* AdBaseViewController.swift in Sources */,
+				53FF10502C2D846200820EC6 /* AppLovinBannerAdMediumRectangleViewController.swift in Sources */,
+				53D3C3682C2B43300074D99B /* AdMobVideoAdViewController.swift in Sources */,
+				53EC0D9A2C204D9B00CA4010 /* IntegrationCasesViewController.swift in Sources */,
+				53D3C3692C2B43300074D99B /* AdMobVideoInterstitialViewController.swift in Sources */,
+				53EC0D5A2C204D8900CA4010 /* UIImageView++.swift in Sources */,
+				53EC0D452C204D0800CA4010 /* SceneDelegate.swift in Sources */,
+				5330A67A2C36FCCE00E8E3FE /* MediafyMultiformatInterstitialViewController.swift in Sources */,
+				5330A67C2C37010100E8E3FE /* AdMobBannerAdMediumRectangleViewController.swift in Sources */,
+				53D3C3672C2B43300074D99B /* AdMobNativeViewController.swift in Sources */,
+				53EC0D962C204D9B00CA4010 /* IntegrationCase.swift in Sources */,
+				53EC0D672C204D9100CA4010 /* InterstitialBaseViewController.swift in Sources */,
+				5330A6802C3703C300E8E3FE /* AppLovinBannerAdViewController.swift in Sources */,
+				53EC0D972C204D9B00CA4010 /* IntegrationAdFormat.swift in Sources */,
+				53D3C3662C2B43300074D99B /* AdMobBannerInterstitialViewController.swift in Sources */,
+				53EC0D932C204D9B00CA4010 /* MediafyNativeViewController.swift in Sources */,
+				53EC0D982C204D9B00CA4010 /* IntegrationCaseManager.swift in Sources */,
+				5330A6822C3704A500E8E3FE /* AppLovinVideoInterstitialViewController.swift in Sources */,
+				53EC0D912C204D9B00CA4010 /* MediafyBannerAdMediumRectangleViewController.swift in Sources */,
+				53FF10512C2D846200820EC6 /* AppLovinVideoAdViewController.swift in Sources */,
+				53EC0D592C204D8900CA4010 /* UIButton++.swift in Sources */,
+				53EC0D992C204D9B00CA4010 /* IntegrationKind.swift in Sources */,
+				531DB0C72C36FA4400653958 /* MediafyBannerAdViewController.swift in Sources */,
+				5330A6842C37051C00E8E3FE /* AppLovinMultifomatInterstitialViewController.swift in Sources */,
+				53FF10552C2D846200820EC6 /* AppLovinNativeViewController.swift in Sources */,
+				53EC0D922C204D9B00CA4010 /* MediafyBannerInterstitialViewController.swift in Sources */,
+				53EC0D942C204D9B00CA4010 /* MediafyVideoAdViewController.swift in Sources */,
+				5330A67E2C37025B00E8E3FE /* AdMobMultiformatInterstitialViewController.swift in Sources */,
+				531DB0C92C36FAAD00653958 /* MediafyBannerAdMultisizeViewController.swift in Sources */,
+				53D3C3642C2B43300074D99B /* AdMobBannerAdViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53EC0D482C204D0800CA4010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EC0D492C204D0800CA4010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53EC0D4D2C204D0900CA4010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EC0D4E2C204D0900CA4010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53EC0D512C204D0900CA4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53EC0D522C204D0900CA4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53EC0D542C204D0900CA4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF1A83A129BD263BFCDD594 /* Pods-MediafyDemoAppSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediafyDemoAppSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediafy.sdk.MediafyDemoAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53EC0D552C204D0900CA4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAABBC0891CF2EFD9E5ED54 /* Pods-MediafyDemoAppSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediafyDemoAppSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediafy.sdk.MediafyDemoAppSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53EC0D3A2C204D0800CA4010 /* Build configuration list for PBXProject "MediafyDemoAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EC0D512C204D0900CA4010 /* Debug */,
+				53EC0D522C204D0900CA4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EC0D532C204D0900CA4010 /* Build configuration list for PBXNativeTarget "MediafyDemoAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EC0D542C204D0900CA4010 /* Debug */,
+				53EC0D552C204D0900CA4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53EC0D372C204D0800CA4010 /* Project object */;
+}

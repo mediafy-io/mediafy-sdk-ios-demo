@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5330A68E2C370C1100E8E3FE /* MediafyBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A68D2C370C1100E8E3FE /* MediafyBannerAdViewController.m */; };
+		5330A6912C370D3300E8E3FE /* MediafyBannerAdMultisizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6902C370D3300E8E3FE /* MediafyBannerAdMultisizeViewController.m */; };
+		5330A6942C370F9800E8E3FE /* MediafyMultiformatInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6932C370F9800E8E3FE /* MediafyMultiformatInterstitialViewController.m */; };
+		5330A69E2C37139200E8E3FE /* AdMobBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A69D2C37139200E8E3FE /* AdMobBannerAdViewController.m */; };
+		5330A6A12C3714B300E8E3FE /* AdMobMultiformatInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6A02C3714B300E8E3FE /* AdMobMultiformatInterstitialViewController.m */; };
+		5330A6A42C37166B00E8E3FE /* AppLovinBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6A32C37166B00E8E3FE /* AppLovinBannerAdViewController.m */; };
+		5330A6A72C3716F800E8E3FE /* AppLovinMultifomatInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A6A62C3716F800E8E3FE /* AppLovinMultifomatInterstitialViewController.m */; };
+		53D3C37C2C2B479E0074D99B /* AdMobBannerInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3712C2B479D0074D99B /* AdMobBannerInterstitialViewController.m */; };
+		53D3C37D2C2B479E0074D99B /* AdMobBannerAdMediumRectangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3722C2B479D0074D99B /* AdMobBannerAdMediumRectangleViewController.m */; };
+		53D3C37E2C2B479E0074D99B /* AdMobVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3752C2B479D0074D99B /* AdMobVideoAdViewController.m */; };
+		53D3C37F2C2B479E0074D99B /* AdMobVideoInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3762C2B479E0074D99B /* AdMobVideoInterstitialViewController.m */; };
+		53D3C3802C2B479E0074D99B /* AdMobNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D3C3782C2B479E0074D99B /* AdMobNativeViewController.m */; };
+		53D3C3812C2B479E0074D99B /* AdMobNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D3C37A2C2B479E0074D99B /* AdMobNativeViewController.xib */; };
+		53EC0DB02C2059A900CA4010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DAF2C2059A900CA4010 /* AppDelegate.m */; };
+		53EC0DB32C2059A900CA4010 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DB22C2059A900CA4010 /* SceneDelegate.m */; };
+		53EC0DB92C2059A900CA4010 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0DB82C2059A900CA4010 /* Base */; };
+		53EC0DBB2C2059AB00CA4010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0DBA2C2059AB00CA4010 /* Assets.xcassets */; };
+		53EC0DBE2C2059AB00CA4010 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0DBD2C2059AB00CA4010 /* Base */; };
+		53EC0DC12C2059AB00CA4010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DC02C2059AB00CA4010 /* main.m */; };
+		53EC0DF92C205A4E00CA4010 /* IntegrationAdFormatDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DC92C205A4E00CA4010 /* IntegrationAdFormatDescriptor.m */; };
+		53EC0DFA2C205A4E00CA4010 /* IntegrationCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DCB2C205A4E00CA4010 /* IntegrationCase.m */; };
+		53EC0E072C205A4E00CA4010 /* MediafyBannerAdMediumRectangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DE52C205A4E00CA4010 /* MediafyBannerAdMediumRectangleViewController.m */; };
+		53EC0E082C205A4E00CA4010 /* MediafyBannerInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DE72C205A4E00CA4010 /* MediafyBannerInterstitialViewController.m */; };
+		53EC0E092C205A4E00CA4010 /* MediafyNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DE92C205A4E00CA4010 /* MediafyNativeViewController.m */; };
+		53EC0E0A2C205A4E00CA4010 /* MediafyVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DEB2C205A4E00CA4010 /* MediafyVideoAdViewController.m */; };
+		53EC0E0B2C205A4E00CA4010 /* MediafyVideoInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DED2C205A4E00CA4010 /* MediafyVideoInterstitialViewController.m */; };
+		53EC0E0C2C205A4E00CA4010 /* IntegrationKindDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DF32C205A4E00CA4010 /* IntegrationKindDescriptor.m */; };
+		53EC0E0D2C205A4E00CA4010 /* IntegrationCaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DF52C205A4E00CA4010 /* IntegrationCaseManager.m */; };
+		53EC0E0E2C205A4E00CA4010 /* IntegrationCasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0DF72C205A4E00CA4010 /* IntegrationCasesViewController.m */; };
+		53EC0E1F2C205A5500CA4010 /* AdBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0E102C205A5500CA4010 /* AdBaseViewController.m */; };
+		53EC0E202C205A5500CA4010 /* AdBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0E112C205A5500CA4010 /* AdBaseViewController.xib */; };
+		53EC0E212C205A5500CA4010 /* InterstitialBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0E142C205A5500CA4010 /* InterstitialBaseViewController.m */; };
+		53EC0E222C205A5500CA4010 /* InterstitialBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0E152C205A5500CA4010 /* InterstitialBaseViewController.xib */; };
+		53EC0E232C205A5500CA4010 /* NativeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0E182C205A5500CA4010 /* NativeBaseViewController.m */; };
+		53EC0E242C205A5500CA4010 /* NativeBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53EC0E192C205A5500CA4010 /* NativeBaseViewController.xib */; };
+		53EC0E252C205A5500CA4010 /* UIImageView+ImageFromURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EC0E1D2C205A5500CA4010 /* UIImageView+ImageFromURL.m */; };
+		53FF10622C2D86CD00820EC6 /* AppLovinNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FF10582C2D86CD00820EC6 /* AppLovinNativeViewController.xib */; };
+		53FF10632C2D86CD00820EC6 /* AppLovinBannerInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF10592C2D86CD00820EC6 /* AppLovinBannerInterstitialViewController.m */; };
+		53FF10642C2D86CD00820EC6 /* AppLovinBannerAdMediumRectangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF105A2C2D86CD00820EC6 /* AppLovinBannerAdMediumRectangleViewController.m */; };
+		53FF10652C2D86CD00820EC6 /* AppLovinNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF105D2C2D86CD00820EC6 /* AppLovinNativeViewController.m */; };
+		53FF10662C2D86CD00820EC6 /* AppLovinVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF105E2C2D86CD00820EC6 /* AppLovinVideoAdViewController.m */; };
+		53FF10672C2D86CE00820EC6 /* AppLovinVideoInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF105F2C2D86CD00820EC6 /* AppLovinVideoInterstitialViewController.m */; };
+		557E8C0343836AEA573C904A /* Pods_MediafyDemoAppObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3FD5B476CAC52887AF5D2D /* Pods_MediafyDemoAppObjectiveC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5330A6972C37132D00E8E3FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C3FD5B476CAC52887AF5D2D /* Pods_MediafyDemoAppObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediafyDemoAppObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5330A68C2C370C1100E8E3FE /* MediafyBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediafyBannerAdViewController.h; sourceTree = "<group>"; };
+		5330A68D2C370C1100E8E3FE /* MediafyBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediafyBannerAdViewController.m; sourceTree = "<group>"; };
+		5330A68F2C370D3300E8E3FE /* MediafyBannerAdMultisizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediafyBannerAdMultisizeViewController.h; sourceTree = "<group>"; };
+		5330A6902C370D3300E8E3FE /* MediafyBannerAdMultisizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediafyBannerAdMultisizeViewController.m; sourceTree = "<group>"; };
+		5330A6922C370F9800E8E3FE /* MediafyMultiformatInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediafyMultiformatInterstitialViewController.h; sourceTree = "<group>"; };
+		5330A6932C370F9800E8E3FE /* MediafyMultiformatInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediafyMultiformatInterstitialViewController.m; sourceTree = "<group>"; };
+		5330A69C2C37139200E8E3FE /* AdMobBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdMobBannerAdViewController.h; sourceTree = "<group>"; };
+		5330A69D2C37139200E8E3FE /* AdMobBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobBannerAdViewController.m; sourceTree = "<group>"; };
+		5330A69F2C3714B300E8E3FE /* AdMobMultiformatInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdMobMultiformatInterstitialViewController.h; sourceTree = "<group>"; };
+		5330A6A02C3714B300E8E3FE /* AdMobMultiformatInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobMultiformatInterstitialViewController.m; sourceTree = "<group>"; };
+		5330A6A22C37166B00E8E3FE /* AppLovinBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLovinBannerAdViewController.h; sourceTree = "<group>"; };
+		5330A6A32C37166B00E8E3FE /* AppLovinBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLovinBannerAdViewController.m; sourceTree = "<group>"; };
+		5330A6A52C3716F800E8E3FE /* AppLovinMultifomatInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppLovinMultifomatInterstitialViewController.h; sourceTree = "<group>"; };
+		5330A6A62C3716F800E8E3FE /* AppLovinMultifomatInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppLovinMultifomatInterstitialViewController.m; sourceTree = "<group>"; };
+		53D3C3712C2B479D0074D99B /* AdMobBannerInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobBannerInterstitialViewController.m; sourceTree = "<group>"; };
+		53D3C3722C2B479D0074D99B /* AdMobBannerAdMediumRectangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobBannerAdMediumRectangleViewController.m; sourceTree = "<group>"; };
+		53D3C3732C2B479D0074D99B /* AdMobVideoAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobVideoAdViewController.h; sourceTree = "<group>"; };
+		53D3C3742C2B479D0074D99B /* AdMobVideoInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobVideoInterstitialViewController.h; sourceTree = "<group>"; };
+		53D3C3752C2B479D0074D99B /* AdMobVideoAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobVideoAdViewController.m; sourceTree = "<group>"; };
+		53D3C3762C2B479E0074D99B /* AdMobVideoInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobVideoInterstitialViewController.m; sourceTree = "<group>"; };
+		53D3C3772C2B479E0074D99B /* AdMobBannerInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobBannerInterstitialViewController.h; sourceTree = "<group>"; };
+		53D3C3782C2B479E0074D99B /* AdMobNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobNativeViewController.m; sourceTree = "<group>"; };
+		53D3C3792C2B479E0074D99B /* AdMobNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobNativeViewController.h; sourceTree = "<group>"; };
+		53D3C37A2C2B479E0074D99B /* AdMobNativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdMobNativeViewController.xib; sourceTree = "<group>"; };
+		53D3C37B2C2B479E0074D99B /* AdMobBannerAdMediumRectangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobBannerAdMediumRectangleViewController.h; sourceTree = "<group>"; };
+		53EC0DAB2C2059A900CA4010 /* MediafyDemoAppObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediafyDemoAppObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EC0DAE2C2059A900CA4010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53EC0DAF2C2059A900CA4010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53EC0DB12C2059A900CA4010 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		53EC0DB22C2059A900CA4010 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		53EC0DB82C2059A900CA4010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53EC0DBA2C2059AB00CA4010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53EC0DBD2C2059AB00CA4010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53EC0DBF2C2059AB00CA4010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53EC0DC02C2059AB00CA4010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53EC0DC92C205A4E00CA4010 /* IntegrationAdFormatDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationAdFormatDescriptor.m; sourceTree = "<group>"; };
+		53EC0DCA2C205A4E00CA4010 /* IntegrationCaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationCaseManager.h; sourceTree = "<group>"; };
+		53EC0DCB2C205A4E00CA4010 /* IntegrationCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationCase.m; sourceTree = "<group>"; };
+		53EC0DE42C205A4E00CA4010 /* MediafyBannerAdMediumRectangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediafyBannerAdMediumRectangleViewController.h; sourceTree = "<group>"; };
+		53EC0DE52C205A4E00CA4010 /* MediafyBannerAdMediumRectangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediafyBannerAdMediumRectangleViewController.m; sourceTree = "<group>"; };
+		53EC0DE62C205A4E00CA4010 /* MediafyBannerInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediafyBannerInterstitialViewController.h; sourceTree = "<group>"; };
+		53EC0DE72C205A4E00CA4010 /* MediafyBannerInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediafyBannerInterstitialViewController.m; sourceTree = "<group>"; };
+		53EC0DE82C205A4E00CA4010 /* MediafyNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediafyNativeViewController.h; sourceTree = "<group>"; };
+		53EC0DE92C205A4E00CA4010 /* MediafyNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediafyNativeViewController.m; sourceTree = "<group>"; };
+		53EC0DEA2C205A4E00CA4010 /* MediafyVideoAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediafyVideoAdViewController.h; sourceTree = "<group>"; };
+		53EC0DEB2C205A4E00CA4010 /* MediafyVideoAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediafyVideoAdViewController.m; sourceTree = "<group>"; };
+		53EC0DEC2C205A4E00CA4010 /* MediafyVideoInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediafyVideoInterstitialViewController.h; sourceTree = "<group>"; };
+		53EC0DED2C205A4E00CA4010 /* MediafyVideoInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediafyVideoInterstitialViewController.m; sourceTree = "<group>"; };
+		53EC0DF02C205A4E00CA4010 /* IntegrationCasesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationCasesViewController.h; sourceTree = "<group>"; };
+		53EC0DF12C205A4E00CA4010 /* IntegrationKindDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationKindDescriptor.h; sourceTree = "<group>"; };
+		53EC0DF22C205A4E00CA4010 /* IntegrationKind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationKind.h; sourceTree = "<group>"; };
+		53EC0DF32C205A4E00CA4010 /* IntegrationKindDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationKindDescriptor.m; sourceTree = "<group>"; };
+		53EC0DF42C205A4E00CA4010 /* IntegrationCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationCase.h; sourceTree = "<group>"; };
+		53EC0DF52C205A4E00CA4010 /* IntegrationCaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationCaseManager.m; sourceTree = "<group>"; };
+		53EC0DF62C205A4E00CA4010 /* IntegrationAdFormatDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationAdFormatDescriptor.h; sourceTree = "<group>"; };
+		53EC0DF72C205A4E00CA4010 /* IntegrationCasesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationCasesViewController.m; sourceTree = "<group>"; };
+		53EC0DF82C205A4E00CA4010 /* IntegrationAdFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationAdFormat.h; sourceTree = "<group>"; };
+		53EC0E0F2C205A5500CA4010 /* AdBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdBaseViewController.h; sourceTree = "<group>"; };
+		53EC0E102C205A5500CA4010 /* AdBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdBaseViewController.m; sourceTree = "<group>"; };
+		53EC0E112C205A5500CA4010 /* AdBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdBaseViewController.xib; sourceTree = "<group>"; };
+		53EC0E132C205A5500CA4010 /* InterstitialBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialBaseViewController.h; sourceTree = "<group>"; };
+		53EC0E142C205A5500CA4010 /* InterstitialBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialBaseViewController.m; sourceTree = "<group>"; };
+		53EC0E152C205A5500CA4010 /* InterstitialBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterstitialBaseViewController.xib; sourceTree = "<group>"; };
+		53EC0E172C205A5500CA4010 /* NativeBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeBaseViewController.h; sourceTree = "<group>"; };
+		53EC0E182C205A5500CA4010 /* NativeBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeBaseViewController.m; sourceTree = "<group>"; };
+		53EC0E192C205A5500CA4010 /* NativeBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeBaseViewController.xib; sourceTree = "<group>"; };
+		53EC0E1C2C205A5500CA4010 /* UIImageView+ImageFromURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageFromURL.h"; sourceTree = "<group>"; };
+		53EC0E1D2C205A5500CA4010 /* UIImageView+ImageFromURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageFromURL.m"; sourceTree = "<group>"; };
+		53FF10572C2D86CD00820EC6 /* AppLovinBannerInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLovinBannerInterstitialViewController.h; sourceTree = "<group>"; };
+		53FF10582C2D86CD00820EC6 /* AppLovinNativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppLovinNativeViewController.xib; sourceTree = "<group>"; };
+		53FF10592C2D86CD00820EC6 /* AppLovinBannerInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLovinBannerInterstitialViewController.m; sourceTree = "<group>"; };
+		53FF105A2C2D86CD00820EC6 /* AppLovinBannerAdMediumRectangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLovinBannerAdMediumRectangleViewController.m; sourceTree = "<group>"; };
+		53FF105B2C2D86CD00820EC6 /* AppLovinVideoAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLovinVideoAdViewController.h; sourceTree = "<group>"; };
+		53FF105C2C2D86CD00820EC6 /* AppLovinVideoInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLovinVideoInterstitialViewController.h; sourceTree = "<group>"; };
+		53FF105D2C2D86CD00820EC6 /* AppLovinNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLovinNativeViewController.m; sourceTree = "<group>"; };
+		53FF105E2C2D86CD00820EC6 /* AppLovinVideoAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLovinVideoAdViewController.m; sourceTree = "<group>"; };
+		53FF105F2C2D86CD00820EC6 /* AppLovinVideoInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLovinVideoInterstitialViewController.m; sourceTree = "<group>"; };
+		53FF10602C2D86CD00820EC6 /* AppLovinNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLovinNativeViewController.h; sourceTree = "<group>"; };
+		53FF10612C2D86CD00820EC6 /* AppLovinBannerAdMediumRectangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLovinBannerAdMediumRectangleViewController.h; sourceTree = "<group>"; };
+		8B83970477CF64DFB0CAFB0B /* Pods-MediafyDemoAppObjectiveC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediafyDemoAppObjectiveC.debug.xcconfig"; path = "Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC.debug.xcconfig"; sourceTree = "<group>"; };
+		C551D55A9B9EEEE504CDA01B /* Pods-MediafyDemoAppObjectiveC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediafyDemoAppObjectiveC.release.xcconfig"; path = "Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53EC0DA82C2059A900CA4010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557E8C0343836AEA573C904A /* Pods_MediafyDemoAppObjectiveC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D3C3702C2B475A0074D99B /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				5330A69C2C37139200E8E3FE /* AdMobBannerAdViewController.h */,
+				5330A69D2C37139200E8E3FE /* AdMobBannerAdViewController.m */,
+				53D3C37B2C2B479E0074D99B /* AdMobBannerAdMediumRectangleViewController.h */,
+				53D3C3722C2B479D0074D99B /* AdMobBannerAdMediumRectangleViewController.m */,
+				53D3C3732C2B479D0074D99B /* AdMobVideoAdViewController.h */,
+				53D3C3752C2B479D0074D99B /* AdMobVideoAdViewController.m */,
+				53D3C3772C2B479E0074D99B /* AdMobBannerInterstitialViewController.h */,
+				53D3C3712C2B479D0074D99B /* AdMobBannerInterstitialViewController.m */,
+				53D3C3742C2B479D0074D99B /* AdMobVideoInterstitialViewController.h */,
+				53D3C3762C2B479E0074D99B /* AdMobVideoInterstitialViewController.m */,
+				5330A69F2C3714B300E8E3FE /* AdMobMultiformatInterstitialViewController.h */,
+				5330A6A02C3714B300E8E3FE /* AdMobMultiformatInterstitialViewController.m */,
+				53D3C3792C2B479E0074D99B /* AdMobNativeViewController.h */,
+				53D3C3782C2B479E0074D99B /* AdMobNativeViewController.m */,
+				53D3C37A2C2B479E0074D99B /* AdMobNativeViewController.xib */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		53EC0DA22C2059A900CA4010 = {
+			isa = PBXGroup;
+			children = (
+				53EC0DAD2C2059A900CA4010 /* MediafyDemoAppObjectiveC */,
+				53EC0DAC2C2059A900CA4010 /* Products */,
+				A8002C2EBFCA6B9BFB3C6061 /* Pods */,
+				D0BFA194692790E64E680DDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53EC0DAC2C2059A900CA4010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0DAB2C2059A900CA4010 /* MediafyDemoAppObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53EC0DAD2C2059A900CA4010 /* MediafyDemoAppObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0E1E2C205A5500CA4010 /* Extensions */,
+				53EC0E1B2C205A5500CA4010 /* GeneralUI */,
+				53EC0DEF2C205A4E00CA4010 /* IntegrationCases */,
+				53EC0DAE2C2059A900CA4010 /* AppDelegate.h */,
+				53EC0DAF2C2059A900CA4010 /* AppDelegate.m */,
+				53EC0DB12C2059A900CA4010 /* SceneDelegate.h */,
+				53EC0DB22C2059A900CA4010 /* SceneDelegate.m */,
+				53EC0DF82C205A4E00CA4010 /* IntegrationAdFormat.h */,
+				53EC0DF62C205A4E00CA4010 /* IntegrationAdFormatDescriptor.h */,
+				53EC0DC92C205A4E00CA4010 /* IntegrationAdFormatDescriptor.m */,
+				53EC0DF42C205A4E00CA4010 /* IntegrationCase.h */,
+				53EC0DCB2C205A4E00CA4010 /* IntegrationCase.m */,
+				53EC0DCA2C205A4E00CA4010 /* IntegrationCaseManager.h */,
+				53EC0DF52C205A4E00CA4010 /* IntegrationCaseManager.m */,
+				53EC0DF02C205A4E00CA4010 /* IntegrationCasesViewController.h */,
+				53EC0DF72C205A4E00CA4010 /* IntegrationCasesViewController.m */,
+				53EC0DF22C205A4E00CA4010 /* IntegrationKind.h */,
+				53EC0DF12C205A4E00CA4010 /* IntegrationKindDescriptor.h */,
+				53EC0DF32C205A4E00CA4010 /* IntegrationKindDescriptor.m */,
+				53EC0DB72C2059A900CA4010 /* Main.storyboard */,
+				53EC0DBA2C2059AB00CA4010 /* Assets.xcassets */,
+				53EC0DBC2C2059AB00CA4010 /* LaunchScreen.storyboard */,
+				53EC0DBF2C2059AB00CA4010 /* Info.plist */,
+				53EC0DC02C2059AB00CA4010 /* main.m */,
+			);
+			path = MediafyDemoAppObjectiveC;
+			sourceTree = "<group>";
+		};
+		53EC0DEE2C205A4E00CA4010 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5330A68C2C370C1100E8E3FE /* MediafyBannerAdViewController.h */,
+				5330A68D2C370C1100E8E3FE /* MediafyBannerAdViewController.m */,
+				53EC0DE42C205A4E00CA4010 /* MediafyBannerAdMediumRectangleViewController.h */,
+				53EC0DE52C205A4E00CA4010 /* MediafyBannerAdMediumRectangleViewController.m */,
+				5330A68F2C370D3300E8E3FE /* MediafyBannerAdMultisizeViewController.h */,
+				5330A6902C370D3300E8E3FE /* MediafyBannerAdMultisizeViewController.m */,
+				53EC0DEA2C205A4E00CA4010 /* MediafyVideoAdViewController.h */,
+				53EC0DEB2C205A4E00CA4010 /* MediafyVideoAdViewController.m */,
+				53EC0DE62C205A4E00CA4010 /* MediafyBannerInterstitialViewController.h */,
+				53EC0DE72C205A4E00CA4010 /* MediafyBannerInterstitialViewController.m */,
+				53EC0DEC2C205A4E00CA4010 /* MediafyVideoInterstitialViewController.h */,
+				53EC0DED2C205A4E00CA4010 /* MediafyVideoInterstitialViewController.m */,
+				5330A6922C370F9800E8E3FE /* MediafyMultiformatInterstitialViewController.h */,
+				5330A6932C370F9800E8E3FE /* MediafyMultiformatInterstitialViewController.m */,
+				53EC0DE82C205A4E00CA4010 /* MediafyNativeViewController.h */,
+				53EC0DE92C205A4E00CA4010 /* MediafyNativeViewController.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		53EC0DEF2C205A4E00CA4010 /* IntegrationCases */ = {
+			isa = PBXGroup;
+			children = (
+				53FF10562C2D86A400820EC6 /* AppLovin */,
+				53D3C3702C2B475A0074D99B /* AdMob */,
+				53EC0DEE2C205A4E00CA4010 /* SDK */,
+			);
+			path = IntegrationCases;
+			sourceTree = "<group>";
+		};
+		53EC0E122C205A5500CA4010 /* BannerBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0E0F2C205A5500CA4010 /* AdBaseViewController.h */,
+				53EC0E102C205A5500CA4010 /* AdBaseViewController.m */,
+				53EC0E112C205A5500CA4010 /* AdBaseViewController.xib */,
+			);
+			path = BannerBaseViewController;
+			sourceTree = "<group>";
+		};
+		53EC0E162C205A5500CA4010 /* InterstitialBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0E132C205A5500CA4010 /* InterstitialBaseViewController.h */,
+				53EC0E142C205A5500CA4010 /* InterstitialBaseViewController.m */,
+				53EC0E152C205A5500CA4010 /* InterstitialBaseViewController.xib */,
+			);
+			path = InterstitialBaseViewController;
+			sourceTree = "<group>";
+		};
+		53EC0E1A2C205A5500CA4010 /* NativeBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0E172C205A5500CA4010 /* NativeBaseViewController.h */,
+				53EC0E182C205A5500CA4010 /* NativeBaseViewController.m */,
+				53EC0E192C205A5500CA4010 /* NativeBaseViewController.xib */,
+			);
+			path = NativeBaseViewController;
+			sourceTree = "<group>";
+		};
+		53EC0E1B2C205A5500CA4010 /* GeneralUI */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0E122C205A5500CA4010 /* BannerBaseViewController */,
+				53EC0E162C205A5500CA4010 /* InterstitialBaseViewController */,
+				53EC0E1A2C205A5500CA4010 /* NativeBaseViewController */,
+			);
+			path = GeneralUI;
+			sourceTree = "<group>";
+		};
+		53EC0E1E2C205A5500CA4010 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53EC0E1C2C205A5500CA4010 /* UIImageView+ImageFromURL.h */,
+				53EC0E1D2C205A5500CA4010 /* UIImageView+ImageFromURL.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53FF10562C2D86A400820EC6 /* AppLovin */ = {
+			isa = PBXGroup;
+			children = (
+				5330A6A22C37166B00E8E3FE /* AppLovinBannerAdViewController.h */,
+				5330A6A32C37166B00E8E3FE /* AppLovinBannerAdViewController.m */,
+				53FF105B2C2D86CD00820EC6 /* AppLovinVideoAdViewController.h */,
+				53FF105E2C2D86CD00820EC6 /* AppLovinVideoAdViewController.m */,
+				53FF10612C2D86CD00820EC6 /* AppLovinBannerAdMediumRectangleViewController.h */,
+				53FF105A2C2D86CD00820EC6 /* AppLovinBannerAdMediumRectangleViewController.m */,
+				53FF10572C2D86CD00820EC6 /* AppLovinBannerInterstitialViewController.h */,
+				53FF10592C2D86CD00820EC6 /* AppLovinBannerInterstitialViewController.m */,
+				53FF105C2C2D86CD00820EC6 /* AppLovinVideoInterstitialViewController.h */,
+				53FF105F2C2D86CD00820EC6 /* AppLovinVideoInterstitialViewController.m */,
+				5330A6A52C3716F800E8E3FE /* AppLovinMultifomatInterstitialViewController.h */,
+				5330A6A62C3716F800E8E3FE /* AppLovinMultifomatInterstitialViewController.m */,
+				53FF10602C2D86CD00820EC6 /* AppLovinNativeViewController.h */,
+				53FF105D2C2D86CD00820EC6 /* AppLovinNativeViewController.m */,
+				53FF10582C2D86CD00820EC6 /* AppLovinNativeViewController.xib */,
+			);
+			path = AppLovin;
+			sourceTree = "<group>";
+		};
+		A8002C2EBFCA6B9BFB3C6061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B83970477CF64DFB0CAFB0B /* Pods-MediafyDemoAppObjectiveC.debug.xcconfig */,
+				C551D55A9B9EEEE504CDA01B /* Pods-MediafyDemoAppObjectiveC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0BFA194692790E64E680DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FD5B476CAC52887AF5D2D /* Pods_MediafyDemoAppObjectiveC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53EC0DAA2C2059A900CA4010 /* MediafyDemoAppObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EC0DC42C2059AB00CA4010 /* Build configuration list for PBXNativeTarget "MediafyDemoAppObjectiveC" */;
+			buildPhases = (
+				8305B8E285A8E12C621149A3 /* [CP] Check Pods Manifest.lock */,
+				53EC0DA72C2059A900CA4010 /* Sources */,
+				53EC0DA82C2059A900CA4010 /* Frameworks */,
+				53EC0DA92C2059A900CA4010 /* Resources */,
+				2CE19BD5F9378DF2F93C2D72 /* [CP] Copy Pods Resources */,
+				FF39ECCECBBF6D71ABC72DE2 /* [CP] Embed Pods Frameworks */,
+				5330A6972C37132D00E8E3FE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediafyDemoAppObjectiveC;
+			productName = MediafyDemoAppObjectiveC;
+			productReference = 53EC0DAB2C2059A900CA4010 /* MediafyDemoAppObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53EC0DA32C2059A900CA4010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					53EC0DAA2C2059A900CA4010 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 53EC0DA62C2059A900CA4010 /* Build configuration list for PBXProject "MediafyDemoAppObjectiveC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53EC0DA22C2059A900CA4010;
+			productRefGroup = 53EC0DAC2C2059A900CA4010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53EC0DAA2C2059A900CA4010 /* MediafyDemoAppObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53EC0DA92C2059A900CA4010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FF10622C2D86CD00820EC6 /* AppLovinNativeViewController.xib in Resources */,
+				53EC0E202C205A5500CA4010 /* AdBaseViewController.xib in Resources */,
+				53EC0DBB2C2059AB00CA4010 /* Assets.xcassets in Resources */,
+				53D3C3812C2B479E0074D99B /* AdMobNativeViewController.xib in Resources */,
+				53EC0DBE2C2059AB00CA4010 /* Base in Resources */,
+				53EC0E222C205A5500CA4010 /* InterstitialBaseViewController.xib in Resources */,
+				53EC0DB92C2059A900CA4010 /* Base in Resources */,
+				53EC0E242C205A5500CA4010 /* NativeBaseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CE19BD5F9378DF2F93C2D72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8305B8E285A8E12C621149A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediafyDemoAppObjectiveC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF39ECCECBBF6D71ABC72DE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MediafyDemoAppObjectiveC/Pods-MediafyDemoAppObjectiveC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53EC0DA72C2059A900CA4010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EC0E1F2C205A5500CA4010 /* AdBaseViewController.m in Sources */,
+				53EC0E0B2C205A4E00CA4010 /* MediafyVideoInterstitialViewController.m in Sources */,
+				53EC0E092C205A4E00CA4010 /* MediafyNativeViewController.m in Sources */,
+				5330A6A42C37166B00E8E3FE /* AppLovinBannerAdViewController.m in Sources */,
+				53FF10632C2D86CD00820EC6 /* AppLovinBannerInterstitialViewController.m in Sources */,
+				53EC0DF92C205A4E00CA4010 /* IntegrationAdFormatDescriptor.m in Sources */,
+				53EC0E212C205A5500CA4010 /* InterstitialBaseViewController.m in Sources */,
+				53FF10662C2D86CD00820EC6 /* AppLovinVideoAdViewController.m in Sources */,
+				53D3C37F2C2B479E0074D99B /* AdMobVideoInterstitialViewController.m in Sources */,
+				53D3C37E2C2B479E0074D99B /* AdMobVideoAdViewController.m in Sources */,
+				5330A69E2C37139200E8E3FE /* AdMobBannerAdViewController.m in Sources */,
+				5330A6A72C3716F800E8E3FE /* AppLovinMultifomatInterstitialViewController.m in Sources */,
+				5330A6912C370D3300E8E3FE /* MediafyBannerAdMultisizeViewController.m in Sources */,
+				53EC0E252C205A5500CA4010 /* UIImageView+ImageFromURL.m in Sources */,
+				53EC0DFA2C205A4E00CA4010 /* IntegrationCase.m in Sources */,
+				53D3C3802C2B479E0074D99B /* AdMobNativeViewController.m in Sources */,
+				53EC0DB02C2059A900CA4010 /* AppDelegate.m in Sources */,
+				53FF10642C2D86CD00820EC6 /* AppLovinBannerAdMediumRectangleViewController.m in Sources */,
+				53EC0E072C205A4E00CA4010 /* MediafyBannerAdMediumRectangleViewController.m in Sources */,
+				53D3C37D2C2B479E0074D99B /* AdMobBannerAdMediumRectangleViewController.m in Sources */,
+				53EC0E0D2C205A4E00CA4010 /* IntegrationCaseManager.m in Sources */,
+				53D3C37C2C2B479E0074D99B /* AdMobBannerInterstitialViewController.m in Sources */,
+				53FF10672C2D86CE00820EC6 /* AppLovinVideoInterstitialViewController.m in Sources */,
+				53EC0DC12C2059AB00CA4010 /* main.m in Sources */,
+				53EC0DB32C2059A900CA4010 /* SceneDelegate.m in Sources */,
+				53EC0E0A2C205A4E00CA4010 /* MediafyVideoAdViewController.m in Sources */,
+				53EC0E082C205A4E00CA4010 /* MediafyBannerInterstitialViewController.m in Sources */,
+				5330A6A12C3714B300E8E3FE /* AdMobMultiformatInterstitialViewController.m in Sources */,
+				5330A68E2C370C1100E8E3FE /* MediafyBannerAdViewController.m in Sources */,
+				53FF10652C2D86CD00820EC6 /* AppLovinNativeViewController.m in Sources */,
+				53EC0E0E2C205A4E00CA4010 /* IntegrationCasesViewController.m in Sources */,
+				53EC0E0C2C205A4E00CA4010 /* IntegrationKindDescriptor.m in Sources */,
+				53EC0E232C205A5500CA4010 /* NativeBaseViewController.m in Sources */,
+				5330A6942C370F9800E8E3FE /* MediafyMultiformatInterstitialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53EC0DB72C2059A900CA4010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EC0DB82C2059A900CA4010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53EC0DBC2C2059AB00CA4010 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EC0DBD2C2059AB00CA4010 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53EC0DC22C2059AB00CA4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53EC0DC32C2059AB00CA4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53EC0DC52C2059AB00CA4010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B83970477CF64DFB0CAFB0B /* Pods-MediafyDemoAppObjectiveC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediafyDemoAppObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediafy.sdk.MediafyDemoAppObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53EC0DC62C2059AB00CA4010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C551D55A9B9EEEE504CDA01B /* Pods-MediafyDemoAppObjectiveC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediafyDemoAppObjectiveC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediafy.sdk.MediafyDemoAppObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53EC0DA62C2059A900CA4010 /* Build configuration list for PBXProject "MediafyDemoAppObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EC0DC22C2059AB00CA4010 /* Debug */,
+				53EC0DC32C2059AB00CA4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EC0DC42C2059AB00CA4010 /* Build configuration list for PBXNativeTarget "MediafyDemoAppObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EC0DC52C2059AB00CA4010 /* Debug */,
+				53EC0DC62C2059AB00CA4010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53EC0DA32C2059A900CA4010 /* Project object */;
+}

@@ -1,0 +1,12 @@
+platform :ios, '15.0'
+
+target 'MediafyDemoAppObjectiveC' do
+  use_frameworks!
+
+  pod 'Google-Mobile-Ads-SDK'
+  pod 'AppLovinSDK'
+
+  pod 'MediafySDK', '2.4.4'
+  pod 'MediafyGoogleMobileAdsAdapter', '2.4.4'
+  pod 'MediafyAppLovinMAXAdapter', '2.4.4'
+end

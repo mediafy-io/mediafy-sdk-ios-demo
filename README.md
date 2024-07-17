@@ -4,7 +4,7 @@ Mediafy SDK is an in-app monetization library.
 
 In this repository you can find the Integration Documentation and Demo Applications demonstrating the basic integration scenarios and usage examples.
 
-The latest SDK version is **1.0.0**.
+The latest SDK version is **2.4.4**.
 
 The minimum deployment target is iOS **12.0**.
 

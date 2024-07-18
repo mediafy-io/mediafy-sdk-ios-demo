@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,31 +17,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GRl-iD-wFU">
-                                <rect key="frame" x="5" y="374" width="380" height="96"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5we-Uh-5Ya">
+                                <rect key="frame" x="19.666666666666657" y="277.33333333333337" width="351" height="289.33333333333337"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mediafy Demo App" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="S0z-8q-Bit" userLabel="App">
-                                        <rect key="frame" x="0.0" y="0.0" width="380" height="48"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                        <color key="textColor" systemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Objective-C" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Zw2-GE-YUQ" userLabel="Language">
-                                        <rect key="frame" x="0.0" y="48" width="380" height="48"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                        <color key="textColor" systemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_dark" translatesAutoresizingMaskIntoConstraints="NO" id="kXI-gc-H0V">
+                                        <rect key="frame" x="0.0" y="0.0" width="351" height="193.33333333333334"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uWo-q5-KXx">
+                                        <rect key="frame" x="63.333333333333329" y="193.33333333333337" width="224.33333333333337" height="96"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo App " textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GaZ-SI-LzJ" userLabel="App">
+                                                <rect key="frame" x="0.0" y="0.0" width="224.33333333333334" height="48"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                                <color key="textColor" systemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Objective-C" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="xEb-Vp-U5Q" userLabel="App">
+                                                <rect key="frame" x="0.0" y="47.999999999999943" width="224.33333333333334" height="48"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                                <color key="textColor" systemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="GRl-iD-wFU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="58e-fI-oYy"/>
-                            <constraint firstItem="GRl-iD-wFU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="F5S-z5-slc"/>
-                            <constraint firstItem="GRl-iD-wFU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="lKj-Ot-R5E"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GRl-iD-wFU" secondAttribute="trailing" constant="5" id="zJ7-pT-E0I"/>
+                            <constraint firstItem="5we-Uh-5Ya" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GoC-JL-eyN"/>
+                            <constraint firstItem="5we-Uh-5Ya" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hMf-Ea-lcT"/>
+                            <constraint firstItem="kXI-gc-H0V" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.9" id="t7l-yl-a6C"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,6 +58,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="logo_dark" width="800" height="193.91999816894531"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -6,7 +6,7 @@ target 'MediafyDemoAppSwift' do
   pod 'Google-Mobile-Ads-SDK'
   pod 'AppLovinSDK'
 
-  pod 'MediafySDK', '2.4.4'
-  pod 'MediafyGoogleMobileAdsAdapter', '2.4.4'
-  pod 'MediafyAppLovinMAXAdapter', '2.4.4'
+  pod 'MediafySDK', '2.4.5'
+  pod 'MediafyGoogleMobileAdsAdapter', '2.4.5'
+  pod 'MediafyAppLovinMAXAdapter', '2.4.5'
 end
